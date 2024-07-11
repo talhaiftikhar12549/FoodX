@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="811d1277-b1d3-4a45-9f11-193f65751bfa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2hPTuMGHzjkm8jEoayLIWo2q8Yt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usman\OneDrive\Desktop\FoodX\vite-project" />
+      <recent name="C:\Users\Usman\OneDrive\Desktop" />
+      <recent name="C:\Users\Usman\OneDrive\Desktop\FoodX\vite-project\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="811d1277-b1d3-4a45-9f11-193f65751bfa" name="Default Changelist" comment="" />
+      <created>1717494944526</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717494944526</updated>
+      <workItem from="1717494946923" duration="2522000" />
+      <workItem from="1717563259343" duration="103119000" />
+      <workItem from="1718095950357" duration="5950000" />
+      <workItem from="1718173578188" duration="13506000" />
+      <workItem from="1718252150189" duration="434000" />
+      <workItem from="1718252706066" duration="29852000" />
+      <workItem from="1718358247293" duration="69000" />
+      <workItem from="1718358341789" duration="199000" />
+      <workItem from="1718358568041" duration="112000" />
+      <workItem from="1718358704892" duration="74000" />
+      <workItem from="1718358871588" duration="9766000" />
+      <workItem from="1719392827181" duration="1273000" />
+      <workItem from="1720097160419" duration="1401000" />
+      <workItem from="1720675067326" duration="638000" />
+      <workItem from="1720675794279" duration="1477000" />
+      <workItem from="1720677314682" duration="660000" />
+      <workItem from="1720678012867" duration="890000" />
+      <workItem from="1720679076387" duration="326000" />
+      <workItem from="1720679431449" duration="629000" />
+      <workItem from="1720680107309" duration="1261000" />
+      <workItem from="1720681506157" duration="670000" />
+      <workItem from="1720682211569" duration="136000" />
+      <workItem from="1720682362729" duration="363000" />
+      <workItem from="1720684134320" duration="758000" />
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1720676314331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720676314331</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <created>1720680715980</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720680715980</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vite-project" />
+    </ignored-roots>
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
