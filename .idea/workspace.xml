@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="811d1277-b1d3-4a45-9f11-193f65751bfa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite-project/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/menudata.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/vite-project/src/components/menudata.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,8 @@
       <workItem from="1720682211569" duration="136000" />
       <workItem from="1720682362729" duration="363000" />
       <workItem from="1720684134320" duration="3950000" />
-      <workItem from="1720689434292" duration="1830000" />
+      <workItem from="1720689434292" duration="3216000" />
+      <workItem from="1721038143029" duration="302000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1720676314331</created>
@@ -112,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720689508907</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implement Lazy Loading in nav bar">
+      <created>1720691468738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720691468738</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +146,8 @@
       <path value="$PROJECT_DIR$/vite-project" />
     </ignored-roots>
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Implement Lazy Loading in nav bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Lazy Loading in nav bar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
