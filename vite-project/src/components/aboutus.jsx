@@ -1,7 +1,6 @@
 import pic5 from "../assets/dilivery pic.svg"
-import pic6 from "../assets/11522840_4757697.svg";
 import pic7 from "../assets/42106263_8979553.svg";
-import pic3 from "../assets/pic3.svg";
+import popUpImage from "/Foodx-Logo.png"
 import React, { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
@@ -21,39 +20,26 @@ import L from 'leaflet'; // Import Leaflet library
 // });
 
 export default function Aboutus() {
-    // const [currentLocation, setCurrentLocation] = useState([33.66, 73.08]); // Default location
-     const [loading, setLoading] = useState(false);
-    //
-    // useEffect(() => {
-    //     navigator.geolocation.getCurrentPosition(
-    //         (position) => {
-    //            setCurrentLocation([position.coords.latitude, position.coords.longitude]);
-    //             setLoading(false);
-    //         },
-    //         (error) => {
-    //             console.error('Error getting user location:', error);
-    //             setLoading(false);
-    //         }
-    //     );
-    // }, []);
 
+     const [loading, setLoading] = useState(false);
+   
     return (
         <>
             <div className="flex vh-[90%]">
                 <div className="w-[50%] flex items-center justify-center text-center">
                     <div className="mx-auto p-4 border rounded-lg shadow-lg w-[80%] h-[80%] ">
-                        {/*{!loading && (*/}
                         {(  <MapContainer center={[33.667617, 73.058385]} zoom={14} style={{ height: '100%', width: '100%' }}>
                                 <TileLayer
                                     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                                 />
                                 <Marker position={[33.667617, 73.058385]}>
-                                    <Popup className="text-md color-[#98c3ed]"> <span className="text-md color-[#98c3ed]">Food X</span></Popup>
+                                    <Popup className="text-md color-[#98c3ed]"> <img src={popUpImage} alt="" /></Popup>
+                                    {/* <Popup className="text-md color-[#98c3ed]"> <span className="text-md font-bold color-[#98c3ed]">Food X</span></Popup> */}
                                 </Marker>
                             </MapContainer>
                         )}
-                        {/*{loading && <p>Loading map...</p>}*/}
+                        {loading && <p>Loading map...</p>}
                     </div>
                 </div>
                 <div className="w-[50%] h-[90vh] flex items-center justify-center">

@@ -8,7 +8,7 @@ export default function Layout() {
         <div className="flex flex-col justify-between h-[100vh]">
             <Header />
             <Outlet />
-<Footer></Footer>
+            <Footer/>
         </div>
     );
 }
