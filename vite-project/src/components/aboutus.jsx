@@ -21,33 +21,35 @@ import L from 'leaflet'; // Import Leaflet library
 
 export default function Aboutus() {
 
-     const [loading, setLoading] = useState(false);
-   
+    const [loading, setLoading] = useState(false);
+
     return (
         <>
-            <div className="flex vh-[90%]">
-                <div className="w-[50%] flex items-center justify-center text-center">
-                    <div className="mx-auto p-4 border rounded-lg shadow-lg w-[80%] h-[80%] ">
-                        {(  <MapContainer center={[33.667617, 73.058385]} zoom={14} style={{ height: '100%', width: '100%' }}>
-                                <TileLayer
-                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                />
-                                <Marker position={[33.667617, 73.058385]}>
-                                    <Popup className="text-md color-[#98c3ed]"> <img src={popUpImage} alt="" /></Popup>
-                                    {/* <Popup className="text-md color-[#98c3ed]"> <span className="text-md font-bold color-[#98c3ed]">Food X</span></Popup> */}
-                                </Marker>
-                            </MapContainer>
+            <section className="flex flex-row h-[80vh] sm:h-[90vh]">
+
+                <div className="w-[100%] sm:w-[50%] flex flex-col items-center justify-center text-center">
+                    <h2 className="w-[80%] py-4 text-3xl font-semibold text-left text-[#98C3ED] font-serif">locaiton</h2>
+                    <div className="mx-auto p-4  rounded-lg shadow-lg w-[80%] sm:h-[80%] h-[50%]">
+                        {(<MapContainer center={[33.667617, 73.058385]} zoom={14} style={{ height: '100%', width: '100%' }}>
+                            <TileLayer
+                                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                            />
+                            <Marker position={[33.667617, 73.058385]}>
+                                <Popup className="text-md color-[#98c3ed]"> <img src={popUpImage} alt="" /></Popup>
+                                {/* <Popup className="text-md color-[#98c3ed]"> <span className="text-md font-bold color-[#98c3ed]">Food X</span></Popup> */}
+                            </Marker>
+                        </MapContainer>
                         )}
                         {loading && <p>Loading map...</p>}
                     </div>
                 </div>
-                <div className="w-[50%] h-[90vh] flex items-center justify-center">
+                <div className="w-[0%] sm:w-[50%] h-[90vh] flex items-center justify-center">
                     <div>
                         <img src={pic5} alt="Delivery" className="h-[400px] w-[600px]" />
                     </div>
                 </div>
-            </div>
+            </section>
 
             <section className="mb-12">
                 <div className="bg-[#98c3ed] h-[5px] w-[100%]">&nbsp;</div>
