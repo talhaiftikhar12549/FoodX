@@ -1,17 +1,19 @@
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import React from "react";
 import { useSelector, useDispatch } from 'react-redux'
-export default function Header()
-
-{
+export default function Header() {
     const totlquantity = useSelector((state) => state.cart.totalquantity)
     return (
         <>
-            <div className=" shadow  ">
+            <div className=" shadow ">
                 <ul className="list-none flex justify-around text-lg h-[4rem]">
                     <li className="content-center">
-                        {/*<img src={Icon} alt="Logo" className="h-14 w-14" />*/}
-                        <p className="text-4xl font-black text-[#98C3ED] font-serif content-center">Food X</p>
+                        <NavLink
+                            to="/"
+                            className={({ isActive }) => (isActive ? 'text-[#98C3ED] font-bold' : 'text-gray-700  font-bold')}
+                        >
+                            <p className="text-4xl font-black text-[#98C3ED] font-serif content-center">Food X</p>
+                        </NavLink>
                     </li>
                     <li className="content-center ">
                         <NavLink
@@ -22,14 +24,14 @@ export default function Header()
                         </NavLink>
                     </li >
 
-                      <li className="content-center ">
-                      <NavLink
-                      to="/menu"
-                      className={({ isActive }) => (isActive ? 'text-[#98C3ED] font-bold' : 'text-gray-700 font-bold')}
-                      >
-                      Menu
-                      </NavLink>
-                      </li>
+                    <li className="content-center ">
+                        <NavLink
+                            to="/menu"
+                            className={({ isActive }) => (isActive ? 'text-[#98C3ED] font-bold' : 'text-gray-700 font-bold')}
+                        >
+                            Menu
+                        </NavLink>
+                    </li>
 
                     <li className="content-center ">
                         <NavLink

@@ -1,8 +1,6 @@
 import React, { Suspense }  from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
-import Header from "./components/header";
 import Layout from "./components/layout"
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from "./components/home";
@@ -20,7 +18,7 @@ const router = createBrowserRouter(
             element: <Layout/>,
             children: [
                 {
-                    index: true, // This makes it the default child route for "/"
+                    index: true, 
                     element: <Home/>
                 },
                 {
