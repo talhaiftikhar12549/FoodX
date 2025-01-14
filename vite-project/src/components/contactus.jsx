@@ -1,4 +1,3 @@
-import pic5 from "../assets/dilivery pic.svg";
 import pic6 from "../assets/11522840_4757697.svg"
 import React from "react";
 
@@ -8,9 +7,9 @@ export default function Contactus()
         <>
             <div className="flex vh-[90%]">
 
-                <div className="w-[50%] flex items-center justify-center text-center">
+                <div className="w-[100%] sm:w-[50%] flex items-center justify-center text-center">
 
-                    <div className="w-[70%]"><p className="text-4xl font-black text-[#98C3ED] font-serif  pb-6">Delivery Address</p>
+                    <div className="w-[80%] sm:w-[70%]"><p className="text-2xl sm:text-4xl font-black text-[#98C3ED] font-serif  pb-6">Delivery Address</p>
 
                         <form className=" mx-auto p-4 border rounded-lg shadow-lg px-12 py-12">
                             <div className="mb-4">
@@ -30,8 +29,6 @@ export default function Contactus()
                                     id="lastName"
                                     name="lastName"
                                     placeholder="Enter your last name"
-                                    // value={formData.lastName}
-                                    // onChange={handleChange}
                                     className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
                                     required
                                 />
@@ -60,14 +57,11 @@ export default function Contactus()
                                 />
                             </div>
                             <div className="mb-4">
-                                {/*<label htmlFor="address" className="block text-gray-700 font-bold mb-2">Address</label>*/}
                                 <input
                                     type="text"
                                     id="address"
                                     name="address"
                                     placeholder="Enter your address"
-                                    // value=""
-                                    // onChange={handleChange}
                                     className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
                                     required
                                 />
@@ -78,7 +72,7 @@ export default function Contactus()
                         </form>
                     </div>
                 </div>
-                <div className="w-[50%] h-[90vh] flex items-center justify-center">
+                <div className="hidden sm:flex  w-[50%] h-[90vh] flex items-center justify-center">
                     <div>
                         <img src={pic6} className="h-[400px] w-[600px]" />
                     </div>

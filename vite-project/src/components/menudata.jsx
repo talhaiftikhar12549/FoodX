@@ -20,7 +20,7 @@ const foodItems = [
     },
     {
         id: uuidv4(),
-        name: 'Grilled Chicken Sandwich',
+        name: 'Grilled Sandwich',
         description: 'Juicy grilled chicken with lettuce, tomato, and mayo on a toasted bun.',
         price: 9.99,
     },

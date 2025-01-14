@@ -28,7 +28,7 @@ export default function Aboutus() {
             <section className="flex flex-row h-[80vh] sm:h-[90vh]">
 
                 <div className="w-[100%] sm:w-[50%] flex flex-col items-center justify-center text-center">
-                    <h2 className="w-[80%] py-4 text-3xl font-semibold text-left text-[#98C3ED] font-serif">locaiton</h2>
+                    <h2 className="w-[80%] py-4 text-3xl font-semibold text-left text-[#98C3ED] font-serif">location</h2>
                     <div className="mx-auto p-4  rounded-lg shadow-lg w-[80%] sm:h-[80%] h-[50%]">
                         {(<MapContainer center={[33.667617, 73.058385]} zoom={14} style={{ height: '100%', width: '100%' }}>
                             <TileLayer
